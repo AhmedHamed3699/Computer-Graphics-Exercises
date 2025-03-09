@@ -1,0 +1,15 @@
+E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\context.c;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw.dir\Debug\context.obj
+E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\init.c;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw.dir\Debug\init.obj
+E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\input.c;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw.dir\Debug\input.obj
+E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\monitor.c;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw.dir\Debug\monitor.obj
+E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\vulkan.c;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw.dir\Debug\vulkan.obj
+E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\window.c;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw.dir\Debug\window.obj
+E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_init.c;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw.dir\Debug\win32_init.obj
+E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_joystick.c;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw.dir\Debug\win32_joystick.obj
+E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_monitor.c;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw.dir\Debug\win32_monitor.obj
+E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_time.c;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw.dir\Debug\win32_time.obj
+E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_thread.c;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw.dir\Debug\win32_thread.obj
+E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_window.c;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw.dir\Debug\win32_window.obj
+E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\wgl_context.c;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw.dir\Debug\wgl_context.obj
+E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\egl_context.c;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw.dir\Debug\egl_context.obj
+E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\osmesa_context.c;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw.dir\Debug\osmesa_context.obj
