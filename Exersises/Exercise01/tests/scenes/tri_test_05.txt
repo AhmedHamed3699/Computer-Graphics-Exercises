@@ -1,0 +1,30 @@
+GFXEX01 61 41
+clear FFFFFF
+
+triangle FF0000 30 20 > 50 20 > 49 25
+triangle BF003F 30 20 > 49 25 > 47 30
+triangle 7F007F 30 20 > 47 30 > 44 34
+triangle 7F007F 30 20 > 44 34 > 40 37
+triangle 3F00BF 30 20 > 40 37 > 35 39
+triangle 0000FF 30 20 > 35 39 > 30 40
+
+triangle 00FF00 30 20 > 10 20 > 11 25
+triangle 00BF3F 30 20 > 11 25 > 13 30
+triangle 007F7F 30 20 > 13 30 > 16 34
+triangle 007F7F 30 20 > 16 34 > 20 37
+triangle 003FBF 30 20 > 20 37 > 25 39
+triangle 0000FF 30 20 > 25 39 > 30 40
+
+triangle FF0000 30 20 > 50 20 > 49 15
+triangle FF3F00 30 20 > 49 15 > 47 10
+triangle FF7F00 30 20 > 47 10 > 44 6
+triangle FF7F00 30 20 > 44 6 > 40 3
+triangle FFBF00 30 20 > 40 3 > 35 1
+triangle FFFF00 30 20 > 35 1 > 30 0
+
+triangle 00FF00 30 20 > 10 20 > 11 15
+triangle 3FFF00 30 20 > 11 15 > 13 10
+triangle 7FFF00 30 20 > 13 10 > 16 6
+triangle 7FFF00 30 20 > 16 6 > 20 3
+triangle BFFF00 30 20 > 20 3 > 25 1
+triangle FFFF00 30 20 > 25 1 > 30 0

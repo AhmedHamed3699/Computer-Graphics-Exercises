@@ -1,0 +1,7 @@
+# ninja log v6
+10	95	7631791662789208	CMakeFiles/rasterizer.dir/src/color.cpp.obj	89adf8311fba1269
+33	114	7631791663023665	CMakeFiles/tester.dir/src/color.cpp.obj	bf10db7625549a1c
+20	177	7631791662895423	CMakeFiles/rasterizer.dir/src/rasterize.cpp.obj	7ee54641bff7bb6
+48	189	7631791663155479	CMakeFiles/tester.dir/src/rasterize.cpp.obj	2b3a647a39a18142
+15	323	7631791662845022	CMakeFiles/rasterizer.dir/src/image.cpp.obj	6c12466dfeb04a8e
+41	354	7631791663060065	CMakeFiles/tester.dir/src/image.cpp.obj	926743afa775c380

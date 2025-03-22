@@ -1,0 +1,50 @@
+[
+{
+  "directory": "E:/Development/Computer-Graphics-Exercises/Exercise01/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -D_CRT_SECURE_NO_WARNINGS -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/stb -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/glm -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++14 -o CMakeFiles\\rasterizer.dir\\src\\main.cpp.obj -c E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\main.cpp",
+  "file": "E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\main.cpp",
+  "output": "CMakeFiles\\rasterizer.dir\\src\\main.cpp.obj"
+},
+{
+  "directory": "E:/Development/Computer-Graphics-Exercises/Exercise01/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -D_CRT_SECURE_NO_WARNINGS -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/stb -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/glm -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++14 -o CMakeFiles\\rasterizer.dir\\src\\color.cpp.obj -c E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\color.cpp",
+  "file": "E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\color.cpp",
+  "output": "CMakeFiles\\rasterizer.dir\\src\\color.cpp.obj"
+},
+{
+  "directory": "E:/Development/Computer-Graphics-Exercises/Exercise01/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -D_CRT_SECURE_NO_WARNINGS -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/stb -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/glm -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++14 -o CMakeFiles\\rasterizer.dir\\src\\image.cpp.obj -c E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\image.cpp",
+  "file": "E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\image.cpp",
+  "output": "CMakeFiles\\rasterizer.dir\\src\\image.cpp.obj"
+},
+{
+  "directory": "E:/Development/Computer-Graphics-Exercises/Exercise01/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -D_CRT_SECURE_NO_WARNINGS -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/stb -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/glm -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++14 -o CMakeFiles\\rasterizer.dir\\src\\rasterize.cpp.obj -c E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\rasterize.cpp",
+  "file": "E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\rasterize.cpp",
+  "output": "CMakeFiles\\rasterizer.dir\\src\\rasterize.cpp.obj"
+},
+{
+  "directory": "E:/Development/Computer-Graphics-Exercises/Exercise01/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -D_CRT_SECURE_NO_WARNINGS -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/stb -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/glm -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++14 -o CMakeFiles\\tester.dir\\src\\test.cpp.obj -c E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\test.cpp",
+  "file": "E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\test.cpp",
+  "output": "CMakeFiles\\tester.dir\\src\\test.cpp.obj"
+},
+{
+  "directory": "E:/Development/Computer-Graphics-Exercises/Exercise01/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -D_CRT_SECURE_NO_WARNINGS -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/stb -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/glm -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++14 -o CMakeFiles\\tester.dir\\src\\color.cpp.obj -c E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\color.cpp",
+  "file": "E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\color.cpp",
+  "output": "CMakeFiles\\tester.dir\\src\\color.cpp.obj"
+},
+{
+  "directory": "E:/Development/Computer-Graphics-Exercises/Exercise01/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -D_CRT_SECURE_NO_WARNINGS -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/stb -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/glm -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++14 -o CMakeFiles\\tester.dir\\src\\image.cpp.obj -c E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\image.cpp",
+  "file": "E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\image.cpp",
+  "output": "CMakeFiles\\tester.dir\\src\\image.cpp.obj"
+},
+{
+  "directory": "E:/Development/Computer-Graphics-Exercises/Exercise01/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe -D_CRT_SECURE_NO_WARNINGS -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/stb -IE:/Development/Computer-Graphics-Exercises/Exercise01/vendor/glm -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++14 -o CMakeFiles\\tester.dir\\src\\rasterize.cpp.obj -c E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\rasterize.cpp",
+  "file": "E:\\Development\\Computer-Graphics-Exercises\\Exercise01\\src\\rasterize.cpp",
+  "output": "CMakeFiles\\tester.dir\\src\\rasterize.cpp.obj"
+}
+]

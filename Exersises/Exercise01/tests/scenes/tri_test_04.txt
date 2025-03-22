@@ -1,0 +1,5 @@
+GFXEX01 31 31
+clear 000000
+
+triangle FF0000 15 0 > 30 15 > 0 30
+triangle 0000FF 15 30 > 30 15 > 0 0

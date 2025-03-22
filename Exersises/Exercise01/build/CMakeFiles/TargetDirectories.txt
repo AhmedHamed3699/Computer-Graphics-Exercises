@@ -1,0 +1,5 @@
+E:/Development/Computer-Graphics-Exercises/Exercise01/build/CMakeFiles/rasterizer.dir
+E:/Development/Computer-Graphics-Exercises/Exercise01/build/CMakeFiles/tester.dir
+E:/Development/Computer-Graphics-Exercises/Exercise01/build/CMakeFiles/test.dir
+E:/Development/Computer-Graphics-Exercises/Exercise01/build/CMakeFiles/edit_cache.dir
+E:/Development/Computer-Graphics-Exercises/Exercise01/build/CMakeFiles/rebuild_cache.dir

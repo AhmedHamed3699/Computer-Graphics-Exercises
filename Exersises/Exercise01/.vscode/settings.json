@@ -1,0 +1,9 @@
+{
+    "cmake.debugConfig": {
+        "args": ["tests/scenes/line_test_00.txt", "output.png"],
+        "cwd": "${workspaceFolder}"
+    },
+    "files.associations": {
+        "cmath": "cpp"
+    }
+}

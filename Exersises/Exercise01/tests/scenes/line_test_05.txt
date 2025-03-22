@@ -1,0 +1,30 @@
+GFXEX01 61 41
+clear FFFFFF
+
+line FF0000 50 20 > 49 25
+line BF003F 49 25 > 47 30
+line 7F007F 47 30 > 44 34
+line 7F007F 44 34 > 40 37
+line 3F00BF 40 37 > 35 39
+line 0000FF 35 39 > 30 40
+
+line 00FF00 10 20 > 11 25
+line 00BF3F 11 25 > 13 30
+line 007F7F 13 30 > 16 34
+line 007F7F 16 34 > 20 37
+line 003FBF 20 37 > 25 39
+line 0000FF 25 39 > 30 40
+
+line FF0000 50 20 > 49 15
+line FF3F00 49 15 > 47 10
+line FF7F00 47 10 > 44 6
+line FF7F00 44 6 > 40 3
+line FFBF00 40 3 > 35 1
+line FFFF00 35 1 > 30 0
+
+line 00FF00 10 20 > 11 15
+line 3FFF00 11 15 > 13 10
+line 7FFF00 13 10 > 16 6
+line 7FFF00 16 6 > 20 3
+line BFFF00 20 3 > 25 1
+line FFFF00 25 1 > 30 0
