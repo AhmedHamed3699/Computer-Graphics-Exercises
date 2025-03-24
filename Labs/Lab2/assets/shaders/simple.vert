@@ -1,11 +1,14 @@
 #version 330 core
+
+layout(location = 0) in vec3 position;
+layout(location = 1) in vec4 color;
+
+out vec4 vertex_color;
+
+uniform float time;
+
 void main() {
-    // Create a constant array of data and fill it with data.
-    const vec3 positions[3] = vec3[3](
-        vec3( 0.5, -0.5, 0.0),
-        vec3(-0.5, -0.5, 0.0),
-        vec3( 0.0,  0.5, 0.0)
-    );
     // Use the vertexID 
-    gl_Position = vec4(positions[gl_VertexID], 1.0);
+    gl_Position = vec4(position + vec3(sin(2 * time), 0.0, 0.0), 1.0);
+    vertex_color = color;
 }

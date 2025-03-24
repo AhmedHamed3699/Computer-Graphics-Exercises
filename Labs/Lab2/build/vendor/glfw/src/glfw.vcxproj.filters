@@ -1,93 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\context.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\init.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\init.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\input.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\input.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\monitor.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\monitor.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\vulkan.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\vulkan.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\window.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\window.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_init.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_init.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_joystick.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_joystick.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_monitor.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_monitor.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_time.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_time.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_thread.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_thread.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_window.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_window.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\wgl_context.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\wgl_context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\egl_context.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\egl_context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\osmesa_context.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\osmesa_context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\internal.h">
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\internal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\mappings.h">
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\mappings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw_config.h">
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src\glfw_config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include\GLFW\glfw3.h">
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include\GLFW\glfw3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include\GLFW\glfw3native.h">
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include\GLFW\glfw3native.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_platform.h">
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_platform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_joystick.h">
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_joystick.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\wgl_context.h">
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\wgl_context.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\egl_context.h">
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\egl_context.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\osmesa_context.h">
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\osmesa_context.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\CMakeLists.txt" />
+    <CustomBuild Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{A5F3B9EB-8201-3DF0-823A-BB6B9AAAB441}</UniqueIdentifier>
+      <UniqueIdentifier>{8F26B6C1-7F23-351A-9FF6-5E0BC379BA2E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{EF3FD288-7D6C-3766-BD08-B7452884D181}</UniqueIdentifier>
+      <UniqueIdentifier>{51AEC775-E15A-3EAD-BF40-BA14D55197A6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

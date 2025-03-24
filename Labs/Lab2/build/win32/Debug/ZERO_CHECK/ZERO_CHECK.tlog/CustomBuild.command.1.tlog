@@ -1,6 +1,6 @@
-^E:\DEVELOPMENT\COMPUTER-GRAPHICS-EXERCISES\LAB2\BUILD\CMAKEFILES\94273634F3B5890B9EB5629DF7066800\GENERATE.STAMP.RULE
+^E:\DEVELOPMENT\COMPUTER-GRAPHICS-EXERCISES\LABS\LAB2\BUILD\CMAKEFILES\8BFC1FA6E99F3160D0B4FD5BBBE349B7\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Development/Computer-Graphics-Exercises/Lab2 -BE:/Development/Computer-Graphics-Exercises/Lab2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Development/Computer-Graphics-Exercises/Lab2/build/GraphicsLab.sln
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Development/Computer-Graphics-Exercises/Labs/Lab2 -BE:/Development/Computer-Graphics-Exercises/Labs/Lab2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Development/Computer-Graphics-Exercises/Labs/Lab2/build/GraphicsLab.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

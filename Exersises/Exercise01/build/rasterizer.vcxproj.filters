@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Exersises\Exercise01\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Exersises\Exercise01\src\color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Exersises\Exercise01\src\image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Exersises\Exercise01\src\rasterize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Exersises\Exercise01\src\color.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Exersises\Exercise01\src\image.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Exersises\Exercise01\src\rasterize.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Development\Computer-Graphics-Exercises\Exersises\Exercise01\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1E976828-09B1-3C3D-83A6-139B3927CE23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A7C53ED9-0942-3CD8-9484-26368C7B47D4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

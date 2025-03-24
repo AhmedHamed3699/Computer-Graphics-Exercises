@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.0)
+cmake_minimum_required(VERSION 3.5.0)
 project(GraphicsExercises01 VERSION 0.1.0 LANGUAGES C CXX)
 
 # Use C++11

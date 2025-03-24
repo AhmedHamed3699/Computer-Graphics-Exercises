@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>E:\Development\Computer-Graphics-Exercises\Lab2\build\Debug\ZERO_CHECK</FullPath>
+      <FullPath>E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>E:\Development\Computer-Graphics-Exercises\Lab2\bin\GraphicsLab.exe</FullPath>
+      <FullPath>E:\Development\Computer-Graphics-Exercises\Labs\Lab2\bin\GraphicsLab.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>E:\Development\Computer-Graphics-Exercises\Lab2\build\Debug\ALL_BUILD</FullPath>
+      <FullPath>E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

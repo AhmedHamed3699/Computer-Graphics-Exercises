@@ -1,4 +1,6 @@
 #pragma once
+#include <stdlib.h>
+#include <cmath>
 
 // Image<T> is a template class holding an image (2D array) where each pixel is of type T
 template<typename T>

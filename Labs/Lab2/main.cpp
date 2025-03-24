@@ -6,6 +6,17 @@
 
 using namespace std;
 
+struct Vec3 {
+    float x, y, z;
+};
+struct Color {
+    uint8_t r, g, b, a;
+};
+struct Vertex {
+    Vec3 position;
+    Color color;
+};
+
 GLuint loadShader(const string &path, GLenum shaderType) {
     ifstream file(path);
     string sourceCode =
@@ -90,19 +101,59 @@ int main() {
 
     glLinkProgram(program);
 
+    GLuint time_loc = glGetUniformLocation(program, "time");
+    if (time_loc == -1) {
+        cerr << "Failed to get time uniform location!";
+        glDeleteProgram(program);
+        glfwDestroyWindow(window);
+        glfwTerminate();
+        exit(1);
+    }
+
+    const Vertex vertices[4] = {
+        {{-0.5,  0.5, 0.0}, {255, 0, 0, 255}},
+        {{ 0.5, -0.5, 0.0}, {0, 255, 0, 255}},
+        {{-0.5, -0.5, 0.0}, {0, 0, 255, 255}},
+        {{ 0.5,  0.5, 0.0}, {0, 255, 255, 255}}
+    };
+
+    const uint16_t elements[6] = {0, 1, 2, 0, 1, 3};
+    
+    GLuint vertex_array;
+    glGenVertexArrays(1, &vertex_array);
+    glBindVertexArray(vertex_array);
+
+    GLuint vertex_buffer;
+    glGenBuffers(1, &vertex_buffer);
+    glBindBuffer(GL_ARRAY_BUFFER, vertex_buffer);
+    glBufferData(GL_ARRAY_BUFFER, 4*sizeof(Vertex), vertices, GL_STATIC_DRAW);
+
+    GLuint element_buffer;
+    glGenBuffers(1, &element_buffer);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, element_buffer);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, 6*sizeof(uint16_t), elements, GL_STATIC_DRAW);
+
+    GLuint position_loc = 0; // glGetAttribLocation(program, "position");
+    glEnableVertexAttribArray(position_loc);
+    glVertexAttribPointer(position_loc, 3, GL_FLOAT, false, sizeof(Vertex), 0);
+
+    GLuint color_loc = 1; // glGetAttribLocation(program, "color");
+    glEnableVertexAttribArray(color_loc);
+    glVertexAttribPointer(color_loc, 4, GL_UNSIGNED_BYTE, true, sizeof(Vertex), (void *)offsetof(Vertex, color));
+
+    glBindVertexArray(0);
+
     while (!glfwWindowShouldClose(window)) // rendering loop
     {
         float time = (float)glfwGetTime();
-        glClearColor(0.5 * sinf(time) + 0.5, 0.5 * sinf(time + 1) + 0.5,
-                     0.5 * sinf(time + 2) + 0.5, 1.0);
+        glClearColor(0.0, 0.0, 0.0, 1.0);
         glClear(GL_COLOR_BUFFER_BIT);
-
-        GLuint vertex_array;
-        glGenVertexArrays(1, &vertex_array);
 
         glUseProgram(program);
         glBindVertexArray(vertex_array);
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+
+        glUniform1f(time_loc, time);
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_SHORT, 0);
 
         glfwPollEvents();
         glfwSwapBuffers(window);

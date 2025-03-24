@@ -1,4 +1,4 @@
-# Install script for directory: E:/Development/Computer-Graphics-Exercises/Lab2/vendor/glfw/src
+# Install script for directory: E:/Development/Computer-Graphics-Exercises/Labs/Lab2/vendor/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

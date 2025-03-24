@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{095CC009-1BAB-38AD-B5B8-0E99251FDCE5}</ProjectGuid>
+    <ProjectGuid>{D394C4CA-96B0-3CBC-B9EC-1864E2F26FF2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>win32</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">glfw.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">glfw.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">glfw.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">glfw.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -98,10 +98,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_GLFW_USE_CONFIG_H;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,7 +114,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
@@ -135,10 +135,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_USE_CONFIG_H;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -151,7 +151,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
@@ -172,10 +172,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_USE_CONFIG_H;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -188,7 +188,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -208,10 +208,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_USE_CONFIG_H;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src;E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -223,11 +223,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\CMakeLists.txt">
+    <CustomBuild Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule E:/Development/Computer-Graphics-Exercises/Lab2/vendor/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule E:/Development/Computer-Graphics-Exercises/Labs/Lab2/vendor/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Development/Computer-Graphics-Exercises/Lab2 -BE:/Development/Computer-Graphics-Exercises/Lab2/build --check-stamp-file E:/Development/Computer-Graphics-Exercises/Lab2/build/vendor/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Development/Computer-Graphics-Exercises/Labs/Lab2 -BE:/Development/Computer-Graphics-Exercises/Labs/Lab2/build --check-stamp-file E:/Development/Computer-Graphics-Exercises/Labs/Lab2/build/vendor/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -236,11 +236,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule E:/Development/Computer-Graphics-Exercises/Lab2/vendor/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule E:/Development/Computer-Graphics-Exercises/Labs/Lab2/vendor/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Development/Computer-Graphics-Exercises/Lab2 -BE:/Development/Computer-Graphics-Exercises/Lab2/build --check-stamp-file E:/Development/Computer-Graphics-Exercises/Lab2/build/vendor/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Development/Computer-Graphics-Exercises/Labs/Lab2 -BE:/Development/Computer-Graphics-Exercises/Labs/Lab2/build --check-stamp-file E:/Development/Computer-Graphics-Exercises/Labs/Lab2/build/vendor/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -249,11 +249,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule E:/Development/Computer-Graphics-Exercises/Lab2/vendor/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule E:/Development/Computer-Graphics-Exercises/Labs/Lab2/vendor/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Development/Computer-Graphics-Exercises/Lab2 -BE:/Development/Computer-Graphics-Exercises/Lab2/build --check-stamp-file E:/Development/Computer-Graphics-Exercises/Lab2/build/vendor/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Development/Computer-Graphics-Exercises/Labs/Lab2 -BE:/Development/Computer-Graphics-Exercises/Labs/Lab2/build --check-stamp-file E:/Development/Computer-Graphics-Exercises/Labs/Lab2/build/vendor/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -262,11 +262,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule E:/Development/Computer-Graphics-Exercises/Lab2/vendor/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule E:/Development/Computer-Graphics-Exercises/Labs/Lab2/vendor/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Development/Computer-Graphics-Exercises/Lab2 -BE:/Development/Computer-Graphics-Exercises/Lab2/build --check-stamp-file E:/Development/Computer-Graphics-Exercises/Lab2/build/vendor/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Development/Computer-Graphics-Exercises/Labs/Lab2 -BE:/Development/Computer-Graphics-Exercises/Labs/Lab2/build --check-stamp-file E:/Development/Computer-Graphics-Exercises/Labs/Lab2/build/vendor/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -275,115 +275,115 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\context.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\context.c">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\init.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\init.c">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\input.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\input.c">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\monitor.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\monitor.c">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\vulkan.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\vulkan.c">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\window.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\window.c">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_init.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_init.c">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_joystick.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_joystick.c">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_monitor.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_monitor.c">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_time.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_time.c">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_thread.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_thread.c">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_window.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_window.c">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\wgl_context.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\wgl_context.c">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\egl_context.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\egl_context.c">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\osmesa_context.c">
+    <ClCompile Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\osmesa_context.c">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalOptions) -Wdeclaration-after-statement</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\internal.h" />
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\mappings.h" />
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\build\vendor\glfw\src\glfw_config.h" />
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include\GLFW\glfw3.h" />
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\include\GLFW\glfw3native.h" />
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_platform.h" />
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\win32_joystick.h" />
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\wgl_context.h" />
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\egl_context.h" />
-    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Lab2\vendor\glfw\src\osmesa_context.h" />
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\internal.h" />
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\mappings.h" />
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\vendor\glfw\src\glfw_config.h" />
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include\GLFW\glfw3.h" />
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\include\GLFW\glfw3native.h" />
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_platform.h" />
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\win32_joystick.h" />
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\wgl_context.h" />
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\egl_context.h" />
+    <ClInclude Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\vendor\glfw\src\osmesa_context.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\Development\Computer-Graphics-Exercises\Lab2\build\ZERO_CHECK.vcxproj">
-      <Project>{7C54D52A-6BFF-36EB-8A05-5FB033AC7515}</Project>
+    <ProjectReference Include="E:\Development\Computer-Graphics-Exercises\Labs\Lab2\build\ZERO_CHECK.vcxproj">
+      <Project>{BFE40469-C030-3132-8EFE-FFFB530E597A}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
