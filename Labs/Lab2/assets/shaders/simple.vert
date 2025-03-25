@@ -5,10 +5,10 @@ layout(location = 1) in vec4 color;
 
 out vec4 vertex_color;
 
-uniform float time;
+uniform mat4 MVP;
 
 void main() {
     // Use the vertexID 
-    gl_Position = vec4(position + vec3(sin(2 * time), 0.0, 0.0), 1.0);
+    gl_Position = MVP * vec4(position, 1.0);
     vertex_color = color;
 }
